@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["libmeshcore-client-support","libmeshcore-proto", "meshcore-chat", "meshcore-cli"]
