@@ -9,4 +9,7 @@ on web browsers. This includes:
 * **libmeshcore-proto:** MeshCore protocol implementation
 
 All projects are licensed freely under the GPLv3 (or the AGPLv3 in the case of libmeshcore-proto)
-+
+
+## Building
+Standard `cargo build --release` works fine. **Important - Ubuntu users:** You need `libdbus-1-dev`
+installed to successfully build.
